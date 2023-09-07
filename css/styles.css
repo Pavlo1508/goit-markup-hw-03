@@ -36,8 +36,8 @@ img {
 }
 
 .container {
-max-width: 1158px;
-margin: auto;
+width: 1158px;
+margin: 0 auto;
 padding: 0 15px;
 }
 
@@ -46,7 +46,6 @@ header .container {
 	align-items: flex-start;
 	justify-content: space-between;
 	gap: 332px;
-	padding: 24px 0 24px 0;
 }
 
 .header-menu {
@@ -146,7 +145,10 @@ header .container {
 }
 
 .visually-hidden {
-	display: none;
+	visibility: hidden;
+}
+
+.main-info-header {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.2;
