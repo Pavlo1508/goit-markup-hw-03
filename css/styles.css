@@ -32,7 +32,6 @@ img {
 
 .helmet {
 	border-bottom: 1px solid #E7E9FC;
-	padding: 0 15px;
 }
 
 .container {
@@ -75,6 +74,7 @@ header .container {
 }
 
 .header-list-item {
+	display: block;
 	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.32px;
@@ -94,6 +94,8 @@ header .container {
 }
 
 .contact-list-item {
+	display: block;
+	padding: 24px 0;
 	line-height: 1.5;
 	color: #434455;
 }
@@ -193,10 +195,6 @@ header .container {
 	padding: 120px 0;
 }
 
-.team .container {
-padding: 120px 0;
-}
-
 .team-header {
 	font-weight: 700;
 	font-size: 36px;
@@ -216,22 +214,12 @@ padding: 120px 0;
 .team-list-item {
 	flex-basis: calc((100% - 72px) / 4);
 	border-radius: 0px 0px 4px 4px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	text-align: center;
 	background-color: #fff;
 }
 
 .main-info-list-item-description {
 	padding: 32px 0;
-}
-
-.main-info-list-item-header {
-	text-align: center;
-}
-
-.main-info-list-item-text {
-	text-align: center;
 }
 
 .portfolio {
@@ -248,8 +236,6 @@ row-gap: 48px;
 .portfolio-list-item {
 	width: calc((100% - 48px) / 3);
 	border-radius: 0px 0px 4px 4px;
-	display: flex;
-	flex-direction: column;
 }
 
 .portfolio-list-item-description {
