@@ -1,0 +1,144 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #434455;
+	background-color: #fff;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h3 {
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 0.4px;
+}
+
+.logo {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.54px;
+	color: #4D5AE5;
+}
+
+.logo-part {
+	color: #2E2F42;
+}
+
+.header-list-item {
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.32px;
+	color: #2E2F42;
+}
+
+.header-list-item:hover, .header-list-item:focus {
+	color: #404bbf;
+}
+
+.contact-list {
+	font-style: normal;
+	letter-spacing: 0.32px;
+}
+
+.contact-list-item {
+	line-height: 1.5;
+	color: #434455;
+}
+
+.contact-list-item:hover, .contact-list-item:focus {
+	color: #404bbf;
+}
+
+.banner {
+	background-color: #2E2F42;
+	color: #fff;
+	text-align: center;
+}
+
+.banner-header {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	letter-spacing: 1.12px;
+}
+
+.banner-btn {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: #4D5AE5;
+	font-weight: 500;
+	letter-spacing: 0.04em;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+.banner-btn:hover, .banner-btn:focus {
+	background-color: #404BBF;
+}
+
+.main-info-header {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.2;
+	letter-spacing: 0.72px;
+	text-transform: capitalize;
+	color: #2E2F42;
+	text-align: center;
+}
+
+.main-info-list-item-header {
+	line-height: 1.2;
+	color: #2e2f42;
+}
+
+.main-info-list-item-text {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+
+.team {
+	background-color: #F4F4FD;
+}
+
+.team-header {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.72px;
+	text-transform: capitalize;
+	color: #2E2F42;
+	text-align: center;
+}
+
+.team-list-item {
+	background-color: #fff;
+}
+
+.portfolio-list-item {
+	border: 1px solid #E7E9FC;
+}
+
+footer {
+	background-color: #2E2F42;
+}
+
+.logo-part-footer {
+	color: #f4f4fd;
+}
+
+.footer-text {
+	color: #f4f4fd;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
